@@ -6,11 +6,11 @@ import 'package:latlong2/latlong.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class MapUtils {
-
   MapUtils._();
 
   static Future<void> openMap(double latitude, double longitude) async {
-    String googleUrl = 'https://www.google.com/maps/search/?api=1&query=$latitude,$longitude';
+    String googleUrl =
+        'https://www.google.com/maps/search/?api=1&query=$latitude,$longitude';
     if (await canLaunch(googleUrl)) {
       await launch(googleUrl);
     } else {
@@ -22,17 +22,16 @@ class MapUtils {
     return my_places
         .map(
           (place) => Marker(
-        point: LatLng(place.latitude, place.longitude),
-        width: 40,
-        height: 40,
-        builder: (_) => Text(
-          CATEGORIES()[place.category_id]!.icon,
-          style: TextStyle(
-              fontSize: 30
+            point: LatLng(place.latitude, place.longitude),
+            width: 40,
+            height: 40,
+            builder: (_) => Text(
+              CATEGORIES()[place.category]!.icon,
+              style: TextStyle(fontSize: 30),
+            ), //Icon(Icons.location_on, size: 40, color: Colors.blueAccent[700],),
+            anchorPos: AnchorPos.align(AnchorAlign.top),
           ),
-        ),//Icon(Icons.location_on, size: 40, color: Colors.blueAccent[700],),
-        anchorPos: AnchorPos.align(AnchorAlign.top),
-      ),
-    ).toList();
+        )
+        .toList();
   }
 }
