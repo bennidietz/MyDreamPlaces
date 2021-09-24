@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "91883109722",
+    "firebase_url": "https://onlineshop-f8053.firebaseio.com",
+    "project_id": "onlineshop-f8053",
+    "storage_bucket": "onlineshop-f8053.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91883109722:android:77210181266cea1793c763",
+        "android_client_info": {
+          "package_name": "com.benni.dietz.travel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91883109722-1vu5hsuvcu1o4drj530obqiu8621a0rd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDokh6JEfVU33vlhuQLb16wZtJHKjt3jLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91883109722-1vu5hsuvcu1o4drj530obqiu8621a0rd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91883109722:android:9eb0fe30eaef0ebb93c763",
+        "android_client_info": {
+          "package_name": "com.gls.ownchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91883109722-1vu5hsuvcu1o4drj530obqiu8621a0rd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDokh6JEfVU33vlhuQLb16wZtJHKjt3jLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91883109722-1vu5hsuvcu1o4drj530obqiu8621a0rd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91883109722:android:8f7c24510f2b42e293c763",
+        "android_client_info": {
+          "package_name": "dietz.bd.bestellwasduwillst"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91883109722-1vu5hsuvcu1o4drj530obqiu8621a0rd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDokh6JEfVU33vlhuQLb16wZtJHKjt3jLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91883109722-1vu5hsuvcu1o4drj530obqiu8621a0rd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91883109722:android:cfcb77eb6fa6de2993c763",
+        "android_client_info": {
+          "package_name": "http.req.bd.onlineshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91883109722-1vu5hsuvcu1o4drj530obqiu8621a0rd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDokh6JEfVU33vlhuQLb16wZtJHKjt3jLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91883109722-1vu5hsuvcu1o4drj530obqiu8621a0rd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
