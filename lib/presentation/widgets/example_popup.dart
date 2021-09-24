@@ -67,7 +67,7 @@ class _ExamplePopupState extends State<ExamplePopup> {
               height: 2.0,
             ),
             Text(
-              "(" + CATEGORIES()[place.category]!.name + ")",
+              'von ${place.from!}',
               style:
                   const TextStyle(fontWeight: FontWeight.w300, fontSize: 11.0),
             ),
